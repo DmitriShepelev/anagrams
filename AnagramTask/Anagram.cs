@@ -46,7 +46,6 @@ namespace AnagramTask
             Array.Sort(soursWord);
             for (int i = 0; i < candidates.Length; i++)
             {
-
                 if (this.Word.Length == candidates[i].Length &&
                     this.Word != candidates[i].ToUpperInvariant())
                 {
